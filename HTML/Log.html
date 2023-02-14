@@ -20,9 +20,9 @@
 			</h1>
 		</td>
 		<td>
-			<input id="hours" type="number" min="0" max="24"  style="width: 30px;"> hours
+			<input id="hours" type="number" min="0" max="24"  style="width: 30px;" value="0"> hours
 			<br>
-			<input id="minutes" type="number" min="0" max="60"  style="width: 30px;"> minutes		
+			<input id="minutes" type="number" min="0" max="60"  style="width: 30px;" value="0"> minutes		
 
 		</td>
 		</tr>
@@ -55,14 +55,15 @@
 <p id="output"></p>
 
 <script>
-var exercise = document.getElementById("exercise").value;
-var hours = document.getElementById("hours").value;
-var minutes = document.getElementById("minutes").value;
-var date = document.getElementById("date").value;
+
 
 var output = document.getElementById("output");
 
 function enter(){
+	var exercise = document.getElementById("exercise").value;
+	var hours = document.getElementById("hours").value;
+	var minutes = document.getElementById("minutes").value;
+	var date = document.getElementById("date").value;
 	output.innerHTML = exercise + " for " + hours + " hours and " + minutes + " minutes on " + date;
 }
 </script>

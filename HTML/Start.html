@@ -51,9 +51,6 @@ function startButtonClick(){
 	else if(button.innerText=="START"){
 		startTimer();
 	}
-	else{
-		document.write("sfdgsfdgs");
-	}
 }
 
 function startTimer(){
@@ -66,6 +63,8 @@ function startTimer(){
 function stopTimer(){
 	var button = document.getElementById("startButton");
 	button.innerText="START";
+	output.innerHTML = "The timer is stopped.";
+
 }
 
 </script>

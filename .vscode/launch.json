@@ -9,7 +9,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open Main.html",
-            "file": "c:\\Users\\thema\\Documents\\collegeSFA\\Spring 23\\CSCI-3321 -001 Client Server Programming\\CSCI-3321-group-Project\\HTML\\Main.html"
+            "file": "c:\\Users\\thema\\Documents\\collegeSFA\\Spring 23\\CSCI-3321 -001 Client Server Programming\\CSCI-3321-group-Project\\HTML"
         }
     ]
 }
